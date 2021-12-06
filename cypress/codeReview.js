@@ -8,7 +8,7 @@
  * Refactor dragging into own function instead of copy paste (code reusability)
  * Copy-paste error in test b would cause it to fail (cy.get('#column-b')) should be column-a (functional issue)
  * Bad commit message and no good detail in pull request body (documentation)
- * Not defining car for new Datatransfer object 
+ * Not defining var for new Datatransfer object (code reusability/readability)
  * 
  */ 
 
