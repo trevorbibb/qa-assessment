@@ -5,8 +5,11 @@
  * Nondescriptive describe and test statements (future ease of troubleshooting and reporting value)
  * Not using variables for elements (code re-usability) 
  * Long chaining together actions and assertions instead of breaking into new lines or refactoring (code readibility) 
- * Refactor dragging into own function instead of copy paste 
- * Copy-paste error in test b would cause it to fail ((cy.get('#column-b')) should be column-a)
+ * Refactor dragging into own function instead of copy paste (code reusability)
+ * Copy-paste error in test b would cause it to fail (cy.get('#column-b')) should be column-a (functional issue)
+ * Bad commit message and no good detail in pull request body (documentation)
+ * Not defining car for new Datatransfer object 
+ * 
  */ 
 
 
